@@ -116,7 +116,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-4 ml-auto">
           <button className="text-gray-700 hover:text-gray-900">
             <img
-              src={icon} // Using the image from assets for the user icon
+              src={icon} 
               alt="User Icon"
               className="h-8 w-8 rounded-full mr-16"
             />
