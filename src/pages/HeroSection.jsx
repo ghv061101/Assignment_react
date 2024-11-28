@@ -7,15 +7,15 @@ const HeroSection = () => {
   return (
     <section className="flex flex-col items-center px-4 sm:px-6">
       <div className="container px-8 md:px-5 gap-16 sm:gap-8">
-        <div className="mx-24 flex flex-col items-center gap-12 md:mx-0">
+        <div className="mx-4 sm:mx-12 md:mx-24 flex flex-col items-center gap-12">
           {/* Heading and Subheading */}
-          <div className="flex flex-col gap-3 self-stretch">
+          <div className="flex flex-col gap-3 self-stretch text-center">
             <div className="flex flex-col items-center gap-4 px-[22px] sm:px-5">
-              <h1 className="text-[60px] font-semibold tracking-[-1.20px] text-gray-900 md:text-[52px] sm:text-[46px]">
+              <h1 className="text-[36px] sm:text-[50px] md:text-[60px] font-semibold tracking-[-1.20px] text-gray-900">
                 Beautiful analytics to grow smarter
               </h1>
             </div>
-            <p className="text-center text-[20px] font-normal leading-[30px] text-blue_gray-700 md:text-[18px] sm:text-[16px]">
+            <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal leading-[30px] text-blue_gray-700">
               Powerful, self-serve product and growth analytics to help you convert, engage, <br />
               and retain more users. Trusted by over 4,000 startups.
             </p>
@@ -27,7 +27,7 @@ const HeroSection = () => {
               <img src={play} alt="Play Icon" className="h-5 w-5 mr-2" />
               Demo
             </button>
-            <button className="flex items-center justify-center h-[50px] w-auto bg-[#7F56D9] text-[#344054] px-4 py-2 rounded-md">
+            <button className="flex items-center justify-center h-[50px] w-auto bg-[#7F56D9] text-white px-4 py-2 rounded-md">
               Sign Up
             </button>
           </div>
@@ -35,17 +35,19 @@ const HeroSection = () => {
       </div>
 
       {/* Images */}
-      <div className="relative h-[560px] rounded-[12px] border-8 border-solid border-gray-900 md:h-[400px] mt-10">
-        <img
-          src={hr}
-          alt="Shadow Image"
-          className="h-[560px] flex-1 rounded-[12px] object-cover md:h-[400px]"
-        />
-        <img
-          src={hs}
-          alt="Screen Mockup"
-          className="absolute bottom-0 left-0 right-0 top-0 m-auto h-[560px] w-full flex-1 rounded-[12px] object-cover md:h-[400px]"
-        />
+      <div className="relative w-full mt-10">
+        <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] rounded-[12px] overflow-hidden">
+          <img
+            src={hr}
+            alt="Shadow Image"
+            className="w-full h-full object-contain" // Ensuring the image is fully visible without cropping
+          />
+          <img
+            src={hs}
+            alt="Screen Mockup"
+            className="absolute top-0 left-0 right-0 bottom-0 w-full h-full object-contain" // Same for the overlay image
+          />
+        </div>
       </div>
     </section>
   );
