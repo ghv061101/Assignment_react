@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import HeroSection from './HeroSection'
+import SocialProof from './SocialProof';
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
        
         <Navbar />
         <HeroSection />
+        <SocialProof/>
       </div>
     );
   };

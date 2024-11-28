@@ -6,6 +6,25 @@ import hs from '../assets/hs.jpg';
 const HeroSection = () => {
   return (
     <section className="flex flex-col items-center px-4 sm:px-6">
+      {/* New Feature Box-in-Box */}
+      <div className="p-4 mb-8 w-full sm:w-auto">
+        <a 
+          href="#"
+          className="flex items-center justify-start rounded-full border border-solid border-purple-300 bg-purple-200 py-1 px-2 text-purple-600"
+        >
+          <div className="flex items-center space-x-4">
+            {/* Inner box for New feature */}
+            <span className="text-sm font-medium text-purple-300 rounded-full border border-purple-400 bg-purple-100 py-2 px-4">
+              New feature
+            </span>
+            <span className="ml-4 text-lg font-semibold">
+              Check out the team dashboard
+            </span>
+            <span className="ml-2 text-xl">→</span> {/* Right Arrow */}
+          </div>
+        </a>
+      </div>
+
       <div className="container px-8 md:px-5 gap-16 sm:gap-8">
         <div className="mx-4 sm:mx-12 md:mx-24 flex flex-col items-center gap-12">
           {/* Heading and Subheading */}
@@ -22,7 +41,7 @@ const HeroSection = () => {
           </div>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mt-8 items-center">
+          <div className="flex flex-col sm:flex-row gap-4 mt-4 items-center">
             <button className="flex items-center justify-center h-[50px] w-auto bg-[#f8f6f0] text-[#344054] px-4 py-2 rounded-md mb-4 sm:mb-0">
               <img src={play} alt="Play Icon" className="h-5 w-5 mr-2" />
               Demo
@@ -35,7 +54,7 @@ const HeroSection = () => {
       </div>
 
       {/* Images */}
-      <div className="relative w-full mt-10">
+      <div className="relative w-full mt-2">
         <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] rounded-[12px] overflow-hidden">
           <img
             src={hr}
