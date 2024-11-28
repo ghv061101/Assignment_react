@@ -1,11 +1,16 @@
 import React from 'react'
 import Navbar from './Navbar'
-const Home = () => {
-  return (
-    <div>
-        <Navbar/>
-    </div>
-  )
-}
+import HeroSection from './HeroSection'
 
-export default Home
+
+const Home = () => {
+    return (
+      <div className='lex flex-col min-h-screen'>
+       
+        <Navbar />
+        <HeroSection />
+      </div>
+    );
+  };
+  
+  export default Home;

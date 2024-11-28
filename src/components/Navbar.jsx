@@ -158,7 +158,7 @@ const Navbar = () => {
             <img
               src={icon}
               alt="User Icon"
-              className="h-8 w-8 rounded-full transition-all duration-300 transform hover:scale-110"
+              className="h-8 w-8 rounded-full transition-all duration-300 transform hover:scale-110 mr-16"
             />
           </button>
         </div>
