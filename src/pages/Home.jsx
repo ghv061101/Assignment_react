@@ -4,6 +4,7 @@ import HeroSection from './HeroSection'
 import SocialProof from './SocialProof';
 import Footer from './Footer';
 import FeaturesSection from './FeaturesSection';
+import TestimonialSection from './TestimonialSection';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
         <HeroSection />
         <SocialProof/>
         <FeaturesSection/>
+        <TestimonialSection/>
         <Footer/>
       </div>
     );
