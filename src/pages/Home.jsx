@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import HeroSection from './HeroSection'
 import SocialProof from './SocialProof';
 import Footer from './Footer';
+import FeaturesSection from './FeaturesSection';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <Navbar />
         <HeroSection />
         <SocialProof/>
+        <FeaturesSection/>
         <Footer/>
       </div>
     );
