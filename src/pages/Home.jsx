@@ -8,6 +8,7 @@ import TestimonialSection from './TestimonialSection';
 import Features2 from './Features2';
 import CAS from './CAS';
 import Blog from './Blog';
+import FAm from './FAm';
 
 
 const Home = () => {
@@ -20,6 +21,8 @@ const Home = () => {
         <FeaturesSection/>
         <TestimonialSection/>
         <Features2/>
+        <FAm/>
+
         <Blog/>
         <CAS/>
         <Footer/>
