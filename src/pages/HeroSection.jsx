@@ -3,6 +3,7 @@ import play from '../assets/play.png';
 import hr from '../assets/hr.jpg';
 import hs from '../assets/hs.jpg';
 
+
 const HeroSection = () => {
   return (
     <section className="flex flex-col items-center px-4 sm:px-6">
@@ -61,6 +62,7 @@ const HeroSection = () => {
             alt="Shadow Image"
             className="w-full h-full object-contain" // Ensuring the image is fully visible without cropping
           />
+          
           <img
             src={hs}
             alt="Screen Mockup"

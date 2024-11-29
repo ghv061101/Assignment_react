@@ -2,9 +2,10 @@ import React from 'react';
 import i1 from '../assets/i1.png';
 import i2 from '../assets/i2.png';
 import i3 from '../assets/i3.png';
-import full from '../assets/phs.png'; 
+import full from '../assets/phs.png';
 import bf from '../assets/bf.jpg';
-import phs from '../assets/phs.png';
+import screen from '../assets/screen.png';
+/* import iphone12 from '../assets/iphone12.png'; */
 
 // Feature Data
 const infoList = [
@@ -50,9 +51,14 @@ const Features2 = () => {
                         Powerful, self-serve product and growth analytics to help you convert, engage, <br /> and retain more users. Trusted by over 4,000 startups.
                     </p>
                 </div>
-
-               
-
+                {/* 
+                 <img src={iphone12} alt="mobile-view" width={250} style={{ position: 'absolute' }} /> */}
+                <img
+                    src={screen}
+                    alt="Screen Mockup"
+                    style={{ width: '75%', height: '800px',alignItems:'center', marginLeft:'170px'}}
+                    className="relatiive top-0 left-0 right-0 bottom-0 object-contain" // Same for the overlay image
+                />
                 {/* Features Grid Section */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-5">
                     {infoList.map((item, index) => (
