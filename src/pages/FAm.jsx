@@ -5,7 +5,7 @@ const accordionData = [
     {
         trialQuestion: 'Is there a free trial available?',
         answer:
-            'Yes, we offer a 14-day free trial for all new users to try out the full features of our service.',
+            'Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.',
     },
     {
         trialQuestion: 'Can I change my plan later?',
