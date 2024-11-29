@@ -5,6 +5,8 @@ import SocialProof from './SocialProof';
 import Footer from './Footer';
 import FeaturesSection from './FeaturesSection';
 import TestimonialSection from './TestimonialSection';
+import Features2 from './Features2';
+import CAS from './CAS';
 
 
 const Home = () => {
@@ -16,6 +18,8 @@ const Home = () => {
         <SocialProof/>
         <FeaturesSection/>
         <TestimonialSection/>
+        <Features2/>
+        <CAS/>
         <Footer/>
       </div>
     );
