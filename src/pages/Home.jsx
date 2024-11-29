@@ -7,6 +7,7 @@ import FeaturesSection from './FeaturesSection';
 import TestimonialSection from './TestimonialSection';
 import Features2 from './Features2';
 import CAS from './CAS';
+import Blog from './Blog';
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
         <FeaturesSection/>
         <TestimonialSection/>
         <Features2/>
+        <Blog/>
         <CAS/>
         <Footer/>
       </div>
