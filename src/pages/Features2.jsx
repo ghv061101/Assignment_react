@@ -52,7 +52,7 @@ const Features2 = () => {
                     <img
                         src={screen}
                         alt="Desktop Mockup"
-                        className="hidden sm:block w-[80%] md:w-[80%] lg:w-[70%] object-cover rounded-lg justify-center"
+                        className="hidden sm:block w-[80%] md:w-[80%] lg:w-[70%] object-cover rounded-lg mr-20 justify-center items-center"
                     />
                     {/* iPhone Mockup */}
                     <img
