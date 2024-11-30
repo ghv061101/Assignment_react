@@ -3,7 +3,6 @@ import i1 from '../assets/i1.png';
 import i2 from '../assets/i2.png';
 import i3 from '../assets/i3.png';
 import full from '../assets/phs.png'; 
-import bf from '../assets/bf.jpg';
 import phs from '../assets/phs.png';
 
 // Feature Data
