@@ -58,7 +58,7 @@ const Features2 = () => {
                     <img
                         src={iphone}
                         alt="iPhone Mockup"
-                        className="lg:block w-[22%] lg:left-[7%] xl:left-[7%]  2xl:left-[7%] md:left-[7%] sm:left-[7%] sm:w-[22%]  object-cover rounded-lg absolute"
+                        className="lg:block w-[22%] lg:left-[7%]  sm:mt-[7%] sm:w-[22%]  object-cover rounded-lg absolute"
                     />
                 </div>
 
