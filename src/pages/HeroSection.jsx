@@ -55,7 +55,7 @@ const HeroSection = () => {
   <img
     src={screen}
     alt="Screenshot of the Team Dashboard"
-    className="w-[90%] md:w-[95%] lg:w-[95%] object-cover rounded-lg"
+    className="w-[70%] md:w-[75%] lg:w-[75%] object-cover rounded-lg"
   />
 </div>
 
