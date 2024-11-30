@@ -48,17 +48,17 @@ const Features2 = () => {
 
                 {/* Screen and iPhone Section */}
                 <div className="relative flex justify-center items-center mt-16">
-                    {/* Desktop Mockup */}
+                    {/* Desktop Mockup (visible only on large screens) */}
                     <img
                         src={screen}
                         alt="Desktop Mockup"
-                        className="hidden sm:block w-[80%] md:w-[80%] lg:w-[70%] object-cover rounded-lg mr-20 justify-center items-center"
+                        className="hidden lg:block w-[60%] object-cover rounded-lg"
                     />
-                    {/* iPhone Mockup */}
+                    {/* iPhone Mockup (visible on both small and large screens) */}
                     <img
                         src={iphone}
                         alt="iPhone Mockup"
-                        className="absolute lg:left-[5%] w-[22%] sm:w-[15%] md:w-[10%] lg:w-[22%] object-cover rounded-lg "
+                        className="lg:block w-[22%] lg:left-[7%] xl:left-[7%]  2xl:left-[7%] md:left-[7%] sm:left-[7%] sm:w-[22%]  object-cover rounded-lg absolute"
                     />
                 </div>
 
