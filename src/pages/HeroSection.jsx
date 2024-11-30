@@ -1,7 +1,6 @@
 import React from 'react';
 import play from '../assets/play.png';
-import hr from '../assets/hr.jpg';
-import hs from '../assets/hs.jpg';
+import screen from '../assets/screen.png';
 
 const HeroSection = () => {
   return (
@@ -51,21 +50,15 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Images */}
-      <div className="relative w-full mt-2">
-        <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] rounded-[12px] overflow-hidden">
-          <img
-            src={hr}
-            alt="Shadow Image"
-            className="w-full h-full object-contain" // Ensuring the image is fully visible without cropping
-          />
-          <img
-            src={hs}
-            alt="Screen Mockup"
-            className="absolute top-0 left-0 right-0 bottom-0 w-full h-full object-contain" // Same for the overlay image
-          />
-        </div>
-      </div>
+      {/* Mockup Image */}
+      <div className="relative w-full mt-6 flex justify-center">
+  <img
+    src={screen}
+    alt="Screenshot of the Team Dashboard"
+    className="w-[90%] md:w-[95%] lg:w-[95%] object-cover rounded-lg"
+  />
+</div>
+
     </section>
   );
 };

@@ -2,15 +2,8 @@ import React from 'react';
 import i1 from '../assets/i1.png';
 import i2 from '../assets/i2.png';
 import i3 from '../assets/i3.png';
-<<<<<<< HEAD
-import full from '../assets/phs.png'; 
-import phs from '../assets/phs.png';
-=======
-import full from '../assets/phs.png';
-import bf from '../assets/bf.jpg';
 import screen from '../assets/screen.png';
-/* import iphone12 from '../assets/iphone12.png'; */
->>>>>>> ef0eec1164152206bf40a734c9e8c45a0c0aa999
+import iphone from '../assets/iphone.png';
 
 // Feature Data
 const infoList = [
@@ -41,11 +34,7 @@ const Features2 = () => {
                 {/* Header Section */}
                 <div className="mx-64 flex flex-col gap-5 md:mx-0">
                     <div className="flex flex-col items-center gap-4">
-                        <button
-                            color="bg-gray"
-                            size="sm"
-                            className="min-w-[82px] rounded-[14px] border border-solid bg-purple-300 px-[11px] font-medium"
-                        >
+                        <button className="min-w-[82px] rounded-[14px] border border-solid bg-purple-300 px-[11px] font-medium">
                             Features
                         </button>
                         <h2 className="text-[36px] font-semibold tracking-[-0.72px] text-gray-900 md:text-[34px] sm:text-[32px]">
@@ -56,14 +45,23 @@ const Features2 = () => {
                         Powerful, self-serve product and growth analytics to help you convert, engage, <br /> and retain more users. Trusted by over 4,000 startups.
                     </p>
                 </div>
-                {/* 
-                 <img src={iphone12} alt="mobile-view" width={250} style={{ position: 'absolute' }} /> */}
-                <img
-                    src={screen}
-                    alt="Screen Mockup"
-                    style={{ width: '75%', height: '800px',alignItems:'center', marginLeft:'170px'}}
-                    className="relatiive top-0 left-0 right-0 bottom-0 object-contain" // Same for the overlay image
-                />
+
+                {/* Screen and iPhone Section */}
+                <div className="relative flex justify-center items-center mt-16">
+                    {/* Desktop Mockup */}
+                    <img
+                        src={screen}
+                        alt="Desktop Mockup"
+                        className="hidden sm:block w-[80%] md:w-[80%] lg:w-[70%] object-cover rounded-lg justify-center"
+                    />
+                    {/* iPhone Mockup */}
+                    <img
+                        src={iphone}
+                        alt="iPhone Mockup"
+                        className="absolute lg:left-[5%] w-[22%] sm:w-[15%] md:w-[10%] lg:w-[22%] object-cover rounded-lg "
+                    />
+                </div>
+
                 {/* Features Grid Section */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-5">
                     {infoList.map((item, index) => (
