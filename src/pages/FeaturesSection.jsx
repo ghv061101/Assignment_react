@@ -3,7 +3,7 @@ import i1 from '../assets/i1.png';
 import i2 from '../assets/i2.png';
 import i3 from '../assets/i3.png';
 import i4 from '../assets/i4.png';
-import i5 from '../assets/i5.png';
+import i55 from '../assets/i55.png';
 import i6 from '../assets/i6.png';
 
 const featureGrid = [
@@ -28,7 +28,7 @@ const featureGrid = [
         descriptionText: 'Solve a problem or close a sale in real-time with chat. If no one is available, customers are seamlessly routed to email without confusion.',
     },
     {
-        icon: i5,
+        icon: i55,
         shareTeamText: 'Connect the tools you already use',
         descriptionText: 'Explore 100+ integrations that make your day-to-day workflow more efficient and familiar. Plus, our extensive developer tools.',
     },

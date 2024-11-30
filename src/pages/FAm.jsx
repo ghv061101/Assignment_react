@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-
+import a1 from '../assets/a1.png';
+import a2 from '../assets/a2.png';
+import a3 from '../assets/a3.png';
 // FAQ Data
 const accordionData = [
     {
@@ -32,13 +34,13 @@ const accordionData = [
 // User Profile Data
 const userProfiles = [
     {
-        avatar: 'https://randomuser.me/api/portraits/men/1.jpg',
+        avatar: a1,
     },
     {
-        avatar: 'https://randomuser.me/api/portraits/women/1.jpg',
+        avatar: a2,
     },
     {
-        avatar: 'https://randomuser.me/api/portraits/men/2.jpg',
+        avatar: a3,
     },
 ];
 
